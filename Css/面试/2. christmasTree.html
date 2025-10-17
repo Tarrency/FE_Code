@@ -9,7 +9,13 @@
                 /*
                 * TODO: 上枝叶效果
                 */
+                border-bottom: 100px solid green;
+                border-top: 100px solid transparent;
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
                 
+                margin-left: 100px;
+                float: left; /* 不设置，middle的上左右透明三角形会占高 */
             }
             .middleBranch {
                 width: 0px;
@@ -17,13 +23,19 @@
                 /*
                 * TODO: 中枝叶效果
                 */
-                
+                border-bottom: 200px solid green;
+                border-top: 200px solid transparent;
+                border-left:200px solid transparent;
+                border-right:200px solid transparent;
             }
             .base {
                 /*
                 * TODO: 树干效果
                 */
-                
+                height: 200px;
+                width: 70px;
+                background-color: gray;
+                margin-left: 165px;
             }
         </style>
     </head>
